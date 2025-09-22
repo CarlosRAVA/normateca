@@ -973,3 +973,8 @@ body {
     cursor: pointer;
 }
 .close:hover { color: #333; }
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
