@@ -21,10 +21,69 @@
         </div>
     </nav>
 
+    <!-- Fondo dinámico con scroll -->
+<div class="scroll-background"></div>
+
+<!-- Imágenes temáticas SVG -->
+<div class="theme-images">
+    <!-- Imagen para Marco Legal -->
+    <div class="theme-img legal-img">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="30" y="20" width="40" height="50" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="35" y1="30" x2="60" y2="30" stroke="currentColor" stroke-width="1"/>
+            <line x1="35" y1="35" x2="65" y2="35" stroke="currentColor" stroke-width="1"/>
+            <line x1="35" y1="40" x2="55" y2="40" stroke="currentColor" stroke-width="1"/>
+            <circle cx="50" cy="80" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="42" y1="80" x2="58" y2="80" stroke="currentColor" stroke-width="2"/>
+        </svg>
+    </div>
+    
+    <!-- Imagen para Estándares -->
+    <div class="theme-img standards-img">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="3"/>
+            <circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="50" cy="50" r="10" fill="currentColor"/>
+            <line x1="20" y1="50" x2="30" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="70" y1="50" x2="80" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="20" x2="50" y2="30" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="70" x2="50" y2="80" stroke="currentColor" stroke-width="2"/>
+        </svg>
+    </div>
+    
+    <!-- Imagen para Privacidad -->
+    <div class="theme-img privacy-img">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 20 C35 25, 35 35, 35 45 L35 65 C35 75, 45 85, 50 85 C55 85, 65 75, 65 65 L65 45 C65 35, 65 25, 50 20 Z" 
+                  fill="none" stroke="currentColor" stroke-width="3"/>
+            <circle cx="50" cy="50" r="8" fill="currentColor"/>
+            <line x1="50" y1="55" x2="50" y2="70" stroke="currentColor" stroke-width="3"/>
+        </svg>
+    </div>
+    
+    <!-- Imagen para Contacto -->
+    <div class="theme-img contact-img">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="35" width="60" height="40" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="M20 40 L50 55 L80 40" fill="none" stroke="currentColor" stroke-width="2"/>
+            <circle cx="30" cy="25" r="3" fill="currentColor"/>
+            <circle cx="50" cy="25" r="3" fill="currentColor"/>
+            <circle cx="70" cy="25" r="3" fill="currentColor"/>
+        </svg>
+    </div>
+</div>
+
     <!-- Sección de inicio -->
     <section id="inicio" class="hero">
         <div class="container">
             <h1>Aspectos Éticos y Legales del Manejo de la Información</h1>
+            <div class="hero-icons">
+                <div class="floating-icon">⚖️</div>
+                <div class="floating-icon">🔒</div>
+                <div class="floating-icon">📊</div>
+                <div class="floating-icon">🛡️</div>
+                <div class="floating-icon">📋</div>
+            </div>
             <p>Una guía completa sobre las normativas y estándares que rigen el manejo responsable de la información en México y a nivel internacional.</p>
         </div>
     </section>
@@ -36,8 +95,10 @@
             
             <!-- Ley General de Protección de Datos Personales -->
             <div class="law-card">
-                <h3>Ley General de Protección de Datos Personales en México</h3>
                 
+                <h3>Ley General de Protección de Datos Personales en México</h3>
+                <div class="card-icon">🔐</div>
+
                 <h4>¿Qué es?</h4>
                 <p>Es la norma mexicana que regula cómo las autoridades y organismos públicos deben tratar y proteger los datos personales de los ciudadanos, incluyendo información sensible como nombre, dirección, historial médico o datos financieros. Esta ley establece principios, obligaciones y procedimientos claros para el manejo de la información, así como medidas de seguridad administrativas, técnicas y físicas que deben aplicarse para evitar el uso indebido o la filtración de datos.</p>
                 
@@ -51,8 +112,10 @@
 
             <!-- Ley de Propiedad Industrial -->
             <div class="law-card">
-                <h3>Ley de Propiedad Industrial</h3>
                 
+                <h3>Ley de Propiedad Industrial</h3>
+                <div class="card-icon">⚙️</div>
+
                 <h4>¿Qué es?</h4>
                 <p>Es la ley que regula y protege los derechos relacionados con inventos, marcas, patentes, diseños industriales, modelos de utilidad, nombres comerciales y secretos industriales en México. Otorga a los creadores e innovadores derechos exclusivos sobre sus desarrollos e ideas, y establece los procedimientos para el registro y control de la propiedad industrial ante el Instituto Mexicano de la Propiedad Industrial (IMPI).</p>
                 
@@ -66,8 +129,10 @@
 
             <!-- Ley Federal de Derechos de Autor -->
             <div class="law-card">
-                <h3>Ley Federal de Derechos de Autor</h3>
                 
+                <h3>Ley Federal de Derechos de Autor</h3>
+                <div class="card-icon">©️</div>
+
                 <h4>¿Qué es?</h4>
                 <p>Es la ley que protege las obras literarias, artísticas y científicas en México, incluyendo libros, música, películas, programas de software, fotografías y demás creaciones originales. Establece los derechos morales del autor, que garantizan su reconocimiento, y los derechos patrimoniales, que permiten obtener beneficios económicos por la explotación de la obra.</p>
                 
@@ -82,8 +147,10 @@
 
             <!-- Código Penal Federal -->
             <div class="law-card">
-                <h3>Código Penal Federal</h3>
                 
+                <div class="card-icon">⚖️</div>
+                <h3>Código Penal Federal</h3>
+
                 <h4>¿Qué es?</h4>
                 <p>Es la norma que establece cuáles son los delitos y las sanciones correspondientes en México. Cubre conductas ilícitas de diversa índole, desde homicidios, lesiones y robos, hasta delitos financieros, informáticos, ambientales y de corrupción. Define las penas, circunstancias agravantes y atenuantes, y los criterios que deben seguir los jueces y autoridades al aplicar la ley.</p>
                 
@@ -105,6 +172,7 @@
             <!-- ISO 27001 -->
             <div class="standard-card">
                 <h3>ISO 27001</h3>
+                <div class="card-icon">🏆</div>
                 
                 <h4>¿Qué es?</h4>
                 <p>Esta norma es un estándar internacional que establece los requisitos para la implementación, mantenimiento y mejora continua de un sistema de gestión de la seguridad de la información. Este sistema se utiliza para proteger la confidencialidad, integridad y disponibilidad de la información. La norma proporciona un marco para la seguridad de la información que ayuda a las organizaciones a identificar y gestionar sus riesgos de seguridad de la información de manera efectiva.</p>
@@ -120,6 +188,7 @@
             <!-- ISO 17799 -->
             <div class="standard-card">
                 <h3>ISO 17799</h3>
+                <div class="card-icon">🔍</div>
                 
                 <h4>¿Qué es?</h4>
                 <p>Es un estándar internacional de alto nivel para la administración de la seguridad de la información, orienta a preservar principios como: la Confidencialidad, donde asegura que únicamente el personal autorizado tenga acceso a la información, la integridad que garantiza que la información no será alterada, eliminada o destruida por entidades no autorizadas y Disponibilidad que asegura que los usuarios autorizados tendrán acceso a la información cuando la requieran. Esta norma se basa en 10 áreas de control que cubren por completo la Gestión de Seguridad de Información.</p>
@@ -135,6 +204,7 @@
             <!-- COBIT -->
             <div class="standard-card">
                 <h3>COBIT</h3>
+                <div class="card-icon">🎯</div>
                 
                 <h4>¿Qué es?</h4>
                 <p>Es un marco de trabajo (framework) para el gobierno y la gestión de las tecnologías de la información (TI) empresariales y dirigido a toda la empresa. En la primera versión del marco de trabajo, COBIT se establece como un acrónimo que significa Control Objectives for Information and Related Technology y su público objetivo inicial eran los auditores de TI. La TI empresarial significa toda la tecnología y procesamiento de la información que una empresa utiliza para lograr sus objetivos, independientemente de donde ocurra dentro de la empresa.</p>
@@ -150,6 +220,7 @@
             <!-- NIST -->
             <div class="standard-card">
                 <h3>NIST</h3>
+                <div class="card-icon">🇺🇸</div>
                 
                 <h4>¿Qué es?</h4>
                 <p>El Instituto Nacional de Estándares y Tecnología es una agencia no reguladora que promueve la innovación mediante avances en metrología, normas y tecnología. El marco de Ciberseguridad del NIST consta de normas, pautas y mejores prácticas que ayudan a las organizaciones a mejorar su gestión del riesgo de ciberseguridad.</p>
@@ -165,6 +236,7 @@
             <!-- ITIL -->
             <div class="standard-card">
                 <h3>ITIL</h3>
+                <div class="card-icon">⚡</div>
                 
                 <h4>¿Qué es?</h4>
                 <p>Es un conjunto de buenas prácticas y un marco de referencia para la gestión de servicios de TI que ayuda a las organizaciones a alinear sus servicios de TI con las necesidades del negocio, mejorar la eficiencia de los procesos, optimizar la calidad de los servicios y controlar los costos. El propósito es proporcionar un enfoque sistemático y estandarizado para la planificación, entrega, soporte y mejora de los servicios de TI, garantizando la satisfacción del cliente y el logro de los objetivos empresariales.</p>
@@ -253,5 +325,55 @@
             </div>
         </div>
     </footer>
+<div class="background-elements">
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+    <div class="bg-shape shape-4"></div>
+</div>
+
+<script>
+// Cambio de fondo basado en scroll
+function updateScrollBackground() {
+    const scrollBackground = document.querySelector('.scroll-background');
+    const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+    const backgroundPosition = scrollPercent * 100;
+    
+    scrollBackground.style.backgroundPosition = `0% ${backgroundPosition}%`;
+}
+
+// Actualizar en scroll
+window.addEventListener('scroll', updateScrollBackground);
+
+// Efecto de aparición de imágenes temáticas
+const observerOptions = {
+    threshold: 0.3,
+    rootMargin: '0px'
+};
+
+const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        const sectionId = entry.target.id;
+        const correspondingImg = document.querySelector(`.${sectionId.replace('-', '')}-img, .${sectionId}-img`);
+        
+        if (entry.isIntersecting) {
+            if (correspondingImg) {
+                correspondingImg.style.opacity = '0.08';
+                correspondingImg.style.transform = 'scale(1.1)';
+            }
+        } else {
+            if (correspondingImg) {
+                correspondingImg.style.opacity = '0.03';
+                correspondingImg.style.transform = 'scale(1)';
+            }
+        }
+    });
+}, observerOptions);
+
+// Observar secciones
+document.querySelectorAll('section[id]').forEach(section => {
+    sectionObserver.observe(section);
+});
+</script>
 </body>
 </html>
